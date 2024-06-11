@@ -2,9 +2,9 @@ TODO
 .DS_Store
 *.swp
 node_modules/
-dist/
 docs/
 webdocs/
 test/**/*.js
 test/**/*.d.ts
 !test/tools/generateBitcoinCoreFixtures.js
+.pnp*
