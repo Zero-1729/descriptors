@@ -56,7 +56,6 @@ const reWpkh = String.raw`wpkh\(${reKeyExp}\)`;
 const reShWpkh = String.raw`sh\(wpkh\(${reKeyExp}\)\)`;
 const rePtr = String.raw`tr\(${reKeyExp}\)`;
 
-
 const reMiniscript = String.raw`(.*?)`; //Matches anything. We assert later in the code that miniscripts are valid and sane.
 
 //RegExp makers:
